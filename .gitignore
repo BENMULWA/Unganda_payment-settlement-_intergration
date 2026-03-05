@@ -1,0 +1,40 @@
+# Environment variables
+.env
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Database files
+*.db
+*.sqlite3
+*.sqbpro
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# Secrets
+config.json
+credentials.json
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Python packages
+*.egg-info/
+dist/
+build/
+
+# Specific files
+relworx.db
+relworxdb.sqbpro

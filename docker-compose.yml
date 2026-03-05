@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  api:
+    build: .
+    container_name: uganda_payment_intergration
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/app              # mount your source code
+      - ./relworx.db:/app/relworx.db  # persist SQLite DB file
+    environment:
+      PYTHONUNBUFFERED: 1
+      PYTHONDONTWRITEBYTECODE: 1
